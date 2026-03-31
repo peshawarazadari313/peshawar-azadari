@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Peshawar Azadari Network</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+body{
+    background:url('https://i0.wp.com/www.islamicinsights.com/wp-content/uploads/arbaeen_iraq_121214_aap.jpg?resize=780%2C470&ssl=1') no-repeat center/cover;
+    color:white;
+    overflow-x:hidden;
+}
+
+/* DARK OVERLAY */
+body::before{
+    content:"";
+    position:fixed;
+    width:100%;
+    height:100%;
+    background:rgba(0,0,0,0.75);
+    z-index:-1;
+}
+
+/* PARTICLES */
+canvas{
+    position:fixed;
+    top:0;
+    left:0;
+    z-index:-1;
+}
+
+/* HEADER */
+header{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding:20px;
+    backdrop-filter:blur(10px);
+    background:rgba(0,0,0,0.6);
+}
+
+header img{
+    width:60px;
+    margin-right:15px;
+    border-radius:50%;
+    animation:glow 2s infinite alternate;
+}
+
+header h1{
+    color:#ff2e2e;
+}
+
+/* HERO */
+.hero{
+    text-align:center;
+    padding:80px 20px;
+    animation:fadeUp 1.5s ease;
+}
+
+.hero h2{
+    font-size:36px;
+    color:#ff2e2e;
+}
+
+.social a{
+    display:inline-block;
+    margin:10px;
+    padding:12px 25px;
+    border-radius:30px;
+    text-decoration:none;
+    color:white;
+    transition:.3s;
+}
+
+.facebook{background:#1877f2;}
+.instagram{background:#e4405f;}
+.tiktok{background:#000;border:1px solid white;}
+.whatsapp{background:#25d366;}
+
+.social a:hover{
+    transform:scale(1.1);
+    box-shadow:0 0 15px red;
+}
+
+/* DESCRIPTION SECTION */
+.description{
+    max-width:900px;
+    margin:60px auto;
+    padding:30px;
+    background:rgba(255,255,255,0.08);
+    backdrop-filter:blur(12px);
+    border-radius:15px;
+    line-height:1.8;
+    animation:fadeUp 2s ease;
+}
+
+.description h3{
+    text-align:center;
+    color:#ff2e2e;
+    margin-bottom:20px;
+}
+
+/* SUBSCRIBE BUTTON */
+.subscribe{
+    display:block;
+    width:max-content;
+    margin:20px auto;
+    padding:15px 30px;
+    background:red;
+    border-radius:30px;
+    text-decoration:none;
+    color:white;
+    font-weight:bold;
+    animation:pulse 2s infinite;
+}
+
+@keyframes pulse{
+    0%{box-shadow:0 0 5px red;}
+    50%{box-shadow:0 0 25px red;}
+    100%{box-shadow:0 0 5px red;}
+}
+
+/* ANIMATIONS */
+@keyframes glow{
+    from{box-shadow:0 0 10px red;}
+    to{box-shadow:0 0 25px red;}
+}
+
+@keyframes fadeUp{
+    from{opacity:0;transform:translateY(50px);}
+    to{opacity:1;transform:translateY(0);}
+}
+
+footer{
+    text-align:center;
+    padding:20px;
+    background:rgba(0,0,0,0.7);
+}
+</style>
+</head>
+
+<body>
+
+<canvas id="particles"></canvas>
+
+<header>
+<img src="https://yt3.googleusercontent.com/uN-0uW5vcdWrPULYQ4fbqC3TzyfIuNZbHExNCGAqtUrao7soF-SZKmI5hXsOKtu4q3Q03AMVVA=s160-c-k-c0x00ffffff-no-rj">
+<h1>Peshawar Azadari</h1>
+</header>
+
+<section class="hero">
+<h2>𝗪𝗲𝗹𝗰𝗼𝗺𝗲 𝗧𝗼 𝗣𝗲𝘀𝗵𝗮𝘄𝗮𝗿 𝗔𝘇𝗮𝗱𝗮𝗿𝗶</h2>
+
+<div class="social">
+<a href="https://facebook.com/share/1CLgp5mR1t" target="_blank" class="facebook">Facebook</a>
+<a href="https://instagram.com/peshawarazadari313" target="_blank" class="instagram">Instagram</a>
+<a href="https://tiktok.com/@peshawar_azadari313" target="_blank" class="tiktok">TikTok</a>
+<a href="https://tiktok.com/@aza_ehussain" target="_blank" class="tiktok">TikTok 2</a>
+<a href="https://whatsapp.com/channel/0029VaWMheI7z4ke2cryWW43" target="_blank" class="whatsapp">WhatsApp</a>
+</div>
+
+<a href="https://www.youtube.com/@peshawar-azadari313" target="_blank" class="subscribe">Subscribe on YouTube</a>
+</section>
+
+<!-- DESCRIPTION -->
+<section class="description">
+<h3>𝗪𝗲𝗹𝗰𝗼𝗺𝗲 𝗧𝗼 𝗣𝗲𝘀𝗵𝗮𝘄𝗮𝗿 𝗔𝘇𝗮𝗱𝗮𝗿𝗶</h3>
+
+<p>
+Azadari e Hussain السلام علیکم in Peshawar,<br><br>
+
+This channel is dedicated to preserving and promoting the sacred traditions of 
+<b>"Azadari e Hussain السلام علیکم"</b>. Here, you will find powerful and soul-stirring 
+<b>Matam</b>, <b>Nohay</b>, <b>Jaloos</b> and <b>Majalis</b> from Peshawar and surrounding regions.<br><br>
+
+Our aim is to keep the message of <b>"Imam Hussain السلام علیکم"</b> alive and echoing through every beat of Matam 
+and every verse of Nohay. Join us as we remember the sacrifices of Karbala with sincerity, love, and devotion.<br><br>
+
+🕊️ <b>Subscribe to this channel to stay connected with Azadari e Hussain السلام علیکم</b> and never miss an update 
+from Peshawar's mourning processions.<br><br>
+
+<b>Labbaik Ya Hussain السلام علیکم</b>
+</p>
+</section>
+
+<footer>
+© 2026 Peshawar Azadari Network
+</footer>
+
+<!-- PARTICLES -->
+<script>
+const canvas=document.getElementById("particles");
+const ctx=canvas.getContext("2d");
+canvas.width=window.innerWidth;
+canvas.height=window.innerHeight;
+
+let particles=[];
+for(let i=0;i<100;i++){
+particles.push({
+x:Math.random()*canvas.width,
+y:Math.random()*canvas.height,
+size:Math.random()*2,
+speedY:Math.random()*1
+});
+}
+
+function animate(){
+ctx.clearRect(0,0,canvas.width,canvas.height);
+particles.forEach(p=>{
+ctx.fillStyle="white";
+ctx.fillRect(p.x,p.y,p.size,p.size);
+p.y+=p.speedY;
+if(p.y>canvas.height)p.y=0;
+});
+requestAnimationFrame(animate);
+}
+animate();
+</script>
+
+</body>
+</html>
